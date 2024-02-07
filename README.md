@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Medicare+ Single Page Application
+
+## Description
+Medicare+ is a single-page application designed to provide [brief description of the application's purpose and features].
+
+## Installation
+To run Medicare+ locally, follow these steps:
+
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Install dependencies:
+4. Start the development server:
+5. Open your web browser and navigate to `http://localhost:3000` to view the application.
+
+## Features
+medicare information
+contact details
+follw section
+## Technologies Used
+- React.js
+- HTML/CSS
+- grid
+-javaScript
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to Medicare+, please follow these guidelines:
+- Fork the repository
+- Create a new branch (`git checkout -b feature/your-feature-name`)
+- Commit your changes (`git commit -am 'Add new feature'`)
+- Push to the branch (`git push origin feature/your-feature-name`)
+- Create a new Pull Request
+
+## Authors
+- [Bhanu Prasad Vepakayala]
+
+## Contact
+bhanu100141@gmail.com

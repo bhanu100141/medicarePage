@@ -1,38 +1,341 @@
 .App {
+  color: midnightblue;
+  padding: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.Hospital{
+  color: cadetblue;
+  margin-left: 25px;
+}
+.Hospital:hover{
+  color: blue;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+  margin-left: 25px;
+  
+}
+.navbar-menu-container {
+  display: none;
+}
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1opx;
+  font-weight: 600;
+  font-family: "open sans";
+  color: blue;
+}
+.navbar-menu-container svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.medi {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}
+.care {
+  color: orange;
+}
+.contact {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.home-banner-container {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  margin-left: 100px;
+}
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: midnightblue;
+  max-width: 500px;
+  font-weight: bold;
+  font-family: "ubuntu";
+}
+.primary-text {
+  color: midnightblue;
+  margin: 1.5rem 0rem;
+  font-weight: bold;
+}
+.primary-text-2 {
+  color: midnightblue;
+}
+.secondary-button {
+  border-radius: 25px;
+  margin: 10px;
   text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: blue;
+  border-width: 0px;
+  font-size: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.secondary-button:hover {
+  background-color: #e48f0f;
+}
+.button-2 {
+  color: blue;
+  background-color: white;
+  border-width: 1px;
+}
+.home-box-section button {
+  background-color: rgb(229, 238, 255);
+  height: 450px;
+  width: 550px;
+  border-radius: 10px;
+  margin-left: 100px;
+  border-width: 0px;
+  
+}
+.home-box-section button:hover{
+  box-shadow: 0px 4px 8px rgb(141, 164, 219);
+}
+.card-1 {
+  width: 40px;
+  height: 50px;
+  border-width: 2px;
+}
+.about-container {
+  padding: 20px;
+  text-align: center;
+  margin-top: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-content {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 110px;
+  text-align: center;
+  background-color: white;
+}
+
+.card:hover {
+  animation: blink 1s infinite alternate;
+  height: 130px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.image {
+  height: 60px;
+}
+.name {
+  font-size: 10px;
+}
+.image:hover {
+  height: 80px;
+}
+.servies-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.s-button {
+  color: white;
+  background-color: blue;
+  padding: 15px;
+  border-radius: 25px;
+  width: 150px;
+  cursor: pointer;
+  border-width: 0px;
+  margin: 10px;
+}
+.s-button:hover{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0.1);
+}
+.s-card {
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+.s-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.s-image {
+  height: 70px;
+}
+.s-1 {
+  padding: 50px;
+}
+.servies-cards {
+  background-color: white;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 80px;
+  margin-right: 10px;
+}
+.men-card {
+  margin-top: 60px;
+  margin-left: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 110px;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+.men-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.we-have {
+  text-align: center;
+}
+.weHave-card {
+  display: flex;
+  justify-content: space-round;
+}
+.card1 {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: cadetblue;
+  margin-left: 150px;
+  height: 200px;
+  width: 150px;
+}
+.card1:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.we-card {
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.new-head {
+  margin: 70px;
+}
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+.news-card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 75px;
+  margin-right: 75px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  width: 400px;
+  height: 150px;
+}
+.news-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.news-image {
+  height: 100px;
+  border-radius: 50%;
+  width: 100px;
+  margin-right: 20px;
+}
+.comment {
+  display: flex;
+}
+.sub-container {
+  text-align: center;
+  margin: 80px;
+  background-color: white;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.sub-out {
+  background-color: blue;
   color: white;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  padding-top: 10px;
+  width: 700px;
+  height: 250px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.sub-out:hover{
+  box-shadow: 0px 8px 16px rgba(0, 0, 0.2);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sub-in {
+  background-color: blue;
+}
+.sub-in h1 {
+  margin-bottom: 50px;
+}
+.sub-in p {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.input {
+  border-radius: 25px;
+  padding: 20px;
+  border-width: 0px;
+}
+.button {
+  background-color: blue;
+  color: white;
+  padding: 3px;
+  border-radius: 25px;
+  width: 100px;
+  font-size: 10px;
+  cursor: pointer;
+  
+}
+.sun-input {
+  background-color: white;
+  width: 350px;
+  margin-left: 200px;
+  padding: 10px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+.fab {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 30px;
+  color: rgb(42, 77, 102);
+}
+.icon:hover{
+  color: blue;
+}
+.footer {
+  color: rgb(42, 77, 102);
+}
+.footer:hover{
+  color: blue;
 }
